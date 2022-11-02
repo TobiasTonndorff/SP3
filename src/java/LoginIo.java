@@ -10,16 +10,25 @@ public class LoginIo {
 
 
     LoginIo(){
+
+        UserManager.getInstance().loadUsers();
+
         System.out.println("Enter your username: ");
         user = input.nextLine();
 
         System.out.println("enter your password: ");
         pass = input.nextLine();
 
-        if(user.equals("Morten") && (pass.equals("Fede"))){
+        if (UserManager.getInstance().hasUser(user, pass)) {
             System.out.println("Login succes");
-        } else{
+        }
+        else {
             System.out.println("Username or password incorrect");
         }
+//        if(user.equals("Morten") && (pass.equals("Fede"))){
+//            System.out.println("Login succes");
+//        } else{
+//            System.out.println("Username or password incorrect");
+//        }
     }
     }
