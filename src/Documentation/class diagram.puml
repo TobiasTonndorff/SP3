@@ -4,15 +4,27 @@ object StreamingTjeneste
 
 
 StreamingTjeneste *-- LoginPage
-
+LoginPage *-- CreateUser
 LoginPage "has a" *-- LoginIO
-User *-- UserDatabase
 User "has a"*-- LoginIO
 User *-- TextUI
 User *-- OptionsInput
 TextUI *-- Options
 TextUI "has a" *-- movies
 TextUI "has a" *-- Series
+StreamingTjeneste : + Main()
+CreateUser : + String username
+CreateUser : + String password
+CreateUser : + Users.txt
+LoginPage : + String UserInput()
+LoginPage : + getUserLogin()
+LoginPage : + CreateUser()
+LoginPage : + LoginUI()
+User : + FarvoriteMovies
+User : + seenMovies
+User : + unseenMovies
+LoginIO : + LoginIO()
+LoginIO *-- UserDatabase
 
 
 
