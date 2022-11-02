@@ -23,6 +23,9 @@ LoginPage : + LoginUI()
 User : + FarvoriteMovies
 User : + seenMovies
 User : + unseenMovies
+User : + User(String name, String password)
+User : + String getFarvoriteMovies()
+User : + String getSeenMovies()
 LoginIO : + LoginIO()
 LoginIO *-- UserDatabase
 
