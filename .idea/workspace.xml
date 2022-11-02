@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Documentation/DomainModel.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/SavedTitles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Documentation/graf.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Documentation/ting.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
