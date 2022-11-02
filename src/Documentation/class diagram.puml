@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+object StreamingTjeneste
+
+
+StreamingTjeneste *-- LoginPage
+
+LoginPage "has a" *-- LoginIO
+User *-- UserDatabase
+User "has a"*-- LoginIO
+User *-- TextUI
+User *-- OptionsInput
+TextUI *-- Options
+TextUI "has a" *-- movies
+TextUI "has a" *-- Series
+
+
+
+
+
+@enduml
