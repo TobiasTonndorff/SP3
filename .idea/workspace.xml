@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Documentation/domain.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Documentation/class diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Documentation/class diagram.puml" afterDir="false" />
-    </list>
+    <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
