@@ -4,7 +4,9 @@ public class LoginIo {
 
     Scanner input = new Scanner(System.in);
 
-    String user, pass;
+    String user;
+
+    String pass;
 
 
     LoginIo(){
@@ -20,4 +22,4 @@ public class LoginIo {
             System.out.println("Username or password incorrect");
         }
     }
-}
+    }
