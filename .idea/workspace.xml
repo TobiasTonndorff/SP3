@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="">
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/Data/Users" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Users.txt" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/Users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/LoginIo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/LoginIo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Main.java" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/src/java/LoginIo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/LoginIo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/UserManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="UML Sequence" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +48,11 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tobia\OneDrive\Dokumenter\GitHub\SP33\SP3\src\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

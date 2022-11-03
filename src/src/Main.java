@@ -5,5 +5,7 @@ public class Main {
 
         manager.loadUsers();
         System.out.println(manager.hasUser("Morten", "Fede"));
+        MainMenu m1 = new MainMenu();
+        m1.menuChoice();
     }
 }
