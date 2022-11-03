@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 
 public class MainMenu {
@@ -10,7 +11,8 @@ public class MainMenu {
     private String result;
     Scanner sc = new Scanner(System.in);
     private int ch;
-    private String IdOfFilm;
+    private int IdOfFilm;
+    private int IdOfSerie;
 //Text baseret main menu.
     public MainMenu(){
         System.out.println("*********************HOVEDMENU**************************");
@@ -31,11 +33,25 @@ public void menuChoice(){
                 System.out.println("You have chosen Film");
                 System.out.println();
                 System.out.println("ENTER YOUR CHOSEN FILMS GENRE");
-                IdOfFilm = sc.nextLine();
+                IdOfFilm = sc.nextInt();
                 result ="god fornøjelse med filmen" + ch + IdOfFilm;
                 System.out.println(result);
+                break;
+            case 2:
+                System.out.println("You have chosen Serier:");
+                System.out.println();
+                System.out.println("ENTER YOUR CHOSEN SERIE GEVESEN");
+                IdOfSerie = sc.nextInt();
+                System.out.println(" god fornøjelse med serien! " + IdOfSerie + Series.getName());
+                break;
+            case 3:
+                System.out.println("You have chosen Dine favoritter:");
+                System.out.println();
+                //System.out.println(" Dette er dine favoritter: " + userGetname() + farvoritter);
+                break;
 
-                    break;
+
+
 
 
             default:
