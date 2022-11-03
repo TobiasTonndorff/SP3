@@ -33,6 +33,7 @@ public void menuChoice(){
                 System.out.println("ENTER YOUR CHOSEN FILMS GENRE");
                 IdOfFilm = sc.nextLine();
                 result ="god fornøjelse med filmen" + ch + IdOfFilm;
+                System.out.println(result);
 
                     break;
 
