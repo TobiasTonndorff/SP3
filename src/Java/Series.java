@@ -1,32 +1,29 @@
+import java.util.ArrayList;
+
 public class Series extends Media {
-    String name;
-    int releaseYear;
-    int starRating;
-    public int seasons;
-    public int episode;
-    public String Series;
 
-    static void categories(){
+    private int startDate;
+    private int endDate;
+    private ArrayList[][] season = new ArrayList[0][0];
+
+    public Series(String title, ArrayList genres, float rating, int startDate, int endDate, ArrayList[][] season, int ID){
+    super(title, genres, rating, ID);
+    this.startDate = startDate;
+    this.endDate = endDate;
+    this.season = season;
 
     }
 
-    public String getName() {
-        return name;
+    public ArrayList play(int s, int e){
+        return season[s][e];
     }
-
-    public int getReleaseYear() {
-        return releaseYear;
-    }
-
-    public int getStarRating() {
-        return starRating;
-    }
-
-    public int getSeasons() {
-        return seasons;
-    }
-
-    public int getEpisode() {
-        return episode;
+    public String getYear(){
+        return startDate + ":" + endDate;
     }
 }
+
+
+
+
+
+
