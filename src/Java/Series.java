@@ -17,7 +17,7 @@ public class Series extends Media {
     public ArrayList play(int s, int e){
         return season[s][e];
     }
-    public String getYear(){
+    public String getYear() {
         return startDate + ":" + endDate;
     }
 }
