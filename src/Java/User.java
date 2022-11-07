@@ -3,9 +3,14 @@ public class User {
     private String userName;
     private String password;
 
+
+
+    private static int ID;
+
     public User(String userName, String password){
         this.userName = userName;
         this.password = password;
+
     }
 
     public String getUserName() {
@@ -15,4 +20,6 @@ public class User {
     public String getPassword() {
         return password;
     }
+
+
 }

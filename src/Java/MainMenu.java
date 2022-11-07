@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class MainMenu {
+/*public class MainMenu {
     //Felter i hovedmenuen
     private String Movies;
     private String Series;
@@ -60,4 +60,4 @@ public void menuChoice(){
 }
 
 
-}
+}*/
