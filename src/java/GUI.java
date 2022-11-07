@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.event.WindowEvent;
+import java.util.Scanner;
 
 
 public class GUI  {
@@ -60,6 +61,7 @@ public class GUI  {
             } else {
                 System.out.println("Username or password incorrect");
             }
+            StartTextMenu();
         });
         panel.add(button);
 
@@ -71,6 +73,7 @@ public class GUI  {
         User u = new User(user, password);
         UserManager.getInstance().writeUser(u);
         frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
+        StartTextMenu();
         });
         panel.add(createUserButton);
 
@@ -84,6 +87,8 @@ public class GUI  {
 
     }
 
+
     //Here we get the persons username and password.
 
 }
+

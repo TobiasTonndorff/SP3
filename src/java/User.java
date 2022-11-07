@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+
 public class User {
 
     private String userName;
@@ -15,4 +18,5 @@ public class User {
     public String getPassword() {
         return password;
     }
+    
 }
