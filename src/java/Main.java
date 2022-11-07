@@ -4,10 +4,8 @@ public class Main {
         UserManager manager = UserManager.getInstance();
 
         manager.loadUsers();
-        System.out.println(manager.hasUser("Morten", "Fede"));
 
-
-       GUI loginpage = new GUI();
+        GUI loginpage = new GUI();
         loginpage.getClass();
     }
 }

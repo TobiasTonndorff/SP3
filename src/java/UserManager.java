@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.List;
@@ -44,4 +41,14 @@ public class UserManager {
         }
         return false;
     }
-}
+    public void writeUser(User u){
+        try{
+            FileWriter writer = new FileWriter("Data/users.txt", true);
+            writer.write("\n" + u.getUserName() + ";" + u.getPassword());
+            writer.close();
+        } catch (IOException e){
+            System.out.println(e);
+        }
+    }
+    }
+
