@@ -7,5 +7,6 @@ public class Main {
 
         GUI loginpage = new GUI();
         loginpage.getClass();
+
     }
 }

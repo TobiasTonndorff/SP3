@@ -20,6 +20,9 @@ public class Series extends Media {
     public String getYear() {
         return startDate + ":" + endDate;
     }
+    public void play(){
+
+    }
 }
 
 

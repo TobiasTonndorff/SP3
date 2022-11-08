@@ -61,7 +61,9 @@ public class GUI  {
             } else {
                 System.out.println("Username or password incorrect");
             }
-            StartTextMenu();
+            UI textMenu = new UI();
+            textMenu.mainInterface();
+
         });
         panel.add(button);
 
@@ -73,7 +75,8 @@ public class GUI  {
         User u = new User(user, password);
         UserManager.getInstance().writeUser(u);
         frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
-        StartTextMenu();
+        UI textMenu = new UI();
+        textMenu.mainInterface();
         });
         panel.add(createUserButton);
 

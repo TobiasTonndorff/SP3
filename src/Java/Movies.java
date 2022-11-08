@@ -27,6 +27,6 @@ public class Movies extends Media {
         return starRating;
     }
     public void play(){
-        
+        System.out.println("en film afspilles");
     }
 }

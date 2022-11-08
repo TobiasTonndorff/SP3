@@ -27,7 +27,7 @@ public class UI {
 
         switch (userInput) {
             case 1 -> movieMenu();
-            case 2 -> seriesMenu();
+            //case 2 -> seriesMenu();
             case 3 -> favorites();
             case 4 -> System.exit(0);
             default -> System.out.println("Not a valid option");
@@ -50,8 +50,8 @@ public class UI {
 
         switch (userInput) {
             case 1 -> categoryMenu();
-            case 2 -> //En klasse skal have en funktion, der ordner det her.
-            case 3 -> //En klasse skal have en funktion, der ordner det her.
+            //case 2 -> //En klasse skal have en funktion, der ordner det her.
+           // case 3 -> //En klasse skal have en funktion, der ordner det her.
             case 4 -> mainInterface();
             default -> System.out.println("Not a valid option");
         }
@@ -102,6 +102,9 @@ public class UI {
 
     }
         public void movies(ArrayList<Movies> movies){
+        for(int i = 0; i < movies.size(); i++){
+            System.out.println(movies.get(i).name);
+        }
 
 
         }
