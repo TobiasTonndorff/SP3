@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//WORK IN PROGRESS
 public class Movies extends Media {
     String name;
     public String Movies;
@@ -11,21 +11,15 @@ public class Movies extends Media {
         this.releaseYear = releaseYear;
     }
 
-    static void categories(){
 
-    }
 
-    public String getName() {
-        return name;
-    }
+
 
     public int getReleaseYear() {
         return releaseYear;
     }
 
-    public int getStarRating() {
-        return starRating;
-    }
+
     public void play(){
         
     }

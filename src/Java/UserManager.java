@@ -3,7 +3,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
-
+//VIRKER
 public class UserManager {
 
     private static final File usersFile = new File("Data/Users.txt");

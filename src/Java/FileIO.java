@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
-
+//VIRKER IKKE
 public class FileIO {
     public ArrayList<String> readMoviesFile() {
-        File file = new File("Data/Movies.txt");
+        File file = new File("SP3/src/Data/Movies.txt");
         ArrayList<String> movies = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);

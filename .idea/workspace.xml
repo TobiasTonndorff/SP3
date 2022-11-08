@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="" />
+    <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/FileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/LoginIo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/LoginIo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/MenuNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/MenuNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/TextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/TextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/User_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/User_2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.WindowEvent;
 import java.util.Scanner;
 
-
+//VIRKER
 public class GUI  {
 
     private static JLabel userLabel;

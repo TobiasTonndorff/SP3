@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//VIRKER IKKE
 public class MenuNavigation {
     public FileIO fileIO = new FileIO();
 

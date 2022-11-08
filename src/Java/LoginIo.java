@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class LoginIo {
-
+//VIRKER IKKE
     Scanner input = new Scanner(System.in);
 
     String user;

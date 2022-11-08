@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//SKAL KIGGES PÅ
 public abstract class Media {
     private static int ID;
     private float rating;
@@ -30,4 +30,9 @@ public abstract class Media {
     static void categories(){
 
     }
+    @Override
+    public String toString(){
+        return getTitle();
+    }
+
 }

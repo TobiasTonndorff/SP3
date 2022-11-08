@@ -1,6 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
-
+//WORK IN PROGRESS
 public class User {
 
     private String userName;

@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//SKAL MÅSKE BRUGES
 public class User_2 {
 
     private int age;
