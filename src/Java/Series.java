@@ -23,6 +23,12 @@ public class Series extends Media {
     public void play(){
 
     }
+
+    @Override
+    public void play(String msg) {
+        System.out.println("*****************");
+        System.out.println(msg);
+    }
 }
 
 

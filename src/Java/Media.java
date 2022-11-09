@@ -30,5 +30,7 @@ public abstract class Media {
     static void categories(){
 
     }
-    public abstract void play();
+
+
+    public abstract void play(String msg);
 }

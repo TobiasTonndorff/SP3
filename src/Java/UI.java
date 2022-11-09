@@ -103,7 +103,7 @@ public class UI {
     }
         public void movies(ArrayList<Movies> movies){
         for(int i = 0; i < movies.size(); i++){
-            System.out.println(movies.get(i).name);
+            System.out.println(movies.get(i).getTitle());
         }
 
 

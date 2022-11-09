@@ -2,17 +2,14 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.Writer;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.Scanner;
+import java.util.*;
 
 public class Data {
     public ArrayList<Movies> getMoviesInCategory( String category) {
 
         ArrayList<Movies> movies = new ArrayList<>();
         Scanner scan = null;
-        File fr = new File("C:\\Users\\tobia\\OneDrive\\Dokumenter\\GitHub\\SP33\\SP3\\Data\\Movies.txt");
+        File fr = new File("Data/Movies.txt");
         try {
             scan = new Scanner(fr);
 
@@ -28,18 +25,18 @@ public class Data {
                 String[] seperatedValues = scan.nextLine().split(";");
                 String[] seperatedCategories = seperatedValues[2].split(",");
                 for (int i = 0; i < seperatedCategories.length; i++) {
-                    if (Objects.equals(seperatedCategories[i], category)) {
-                        System.out.println(seperatedCategories[i]);
-                        ArrayList<String> categories = (ArrayList<String>) Arrays.asList(seperatedCategories);
-                        Movies movie = new Movies(seperatedValues[0],categories , Float.parseFloat(seperatedValues[3]), Integer.parseInt(seperatedValues[1]), 1);
+                    if (seperatedCategories[i].trim().equals(category)) {
+                        ArrayList<String> categories = new ArrayList<>();
+                        Collections.addAll(categories, seperatedCategories);
+                        Movies movie = new Movies(seperatedValues[0],categories , Float.parseFloat(seperatedValues[3].trim()), Integer.parseInt(seperatedValues[1].trim()), 1);
                         movies.add(movie);
 
                     }
-
                 }
-
             }
-
+        }
+        else{
+            System.out.println("scan var null");
         }
         return movies;
     }
@@ -54,6 +51,4 @@ public class Data {
     }
 
     }
-}*/
-
-}
+}*/}

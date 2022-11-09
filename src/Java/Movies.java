@@ -15,6 +15,8 @@ public class Movies extends Media {
 
     }
 
+
+
     public String getName() {
         return name;
     }
@@ -26,7 +28,9 @@ public class Movies extends Media {
     public int getStarRating() {
         return starRating;
     }
-    public void play(){
-        System.out.println("en film afspilles");
+    @Override
+    public void play(String msg){
+        System.out.println("*********************");
+            System.out.println(msg);
     }
 }
