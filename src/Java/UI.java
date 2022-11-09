@@ -104,17 +104,22 @@ public class UI {
         public void movies(ArrayList<Movies> movies){
         for(int i = 0; i < movies.size(); i++){
             System.out.println(movies.get(i).getTitle());
-        }
 
+        }
+        favorites();
 
         }
     public void favorites(){
+
         System.out.println("*********************MovieMenu**************************");
         System.out.println("========================================================");
         System.out.println("You have these following options:");
-
+        System.out.println("1. play movie");
         System.out.println("4. Back to MainMenu");
         userInput = getUserInput("User input: ");
 
+
     }
-}
+    }
+
+

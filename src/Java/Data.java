@@ -40,6 +40,8 @@ public class Data {
         }
         return movies;
     }
+
+
 /*public ArrayList<Movies> setWatchedMovies(Movies m ){
         ArrayList<Movies> movies = new ArrayList<>();
     Writer writer = null;
