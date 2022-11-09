@@ -70,12 +70,12 @@ public class UI {
         System.out.println("4.View all Crime movies");
         System.out.println("5.View all Adventure movies");
         System.out.println("6.View all Mystery movies");
-        System.out.println("6.View all Sci-fi movies");
-        System.out.println("7.View all War movies");
-        System.out.println("8.View all Fantasy movies");
-        System.out.println("9.View all Romance movies");
-        System.out.println("10.View all Comedy movies");
-        System.out.println("11.View all Musical movies");
+        System.out.println("7.View all Sci-fi movies");
+        System.out.println("8.View all War movies");
+        System.out.println("9.View all Fantasy movies");
+        System.out.println("10.View all Romance movies");
+        System.out.println("11.View all Comedy movies");
+        System.out.println("12.View all Musical movies");
         System.out.println("13. View all Action movies");
         System.out.println("14.Back to MovieMenu");
 

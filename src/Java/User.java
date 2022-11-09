@@ -4,7 +4,7 @@ public class User {
 
     private String userName;
     private String password;
-    private ArrayList watchedMedia = null;
+    private ArrayList<Media> watchedMedia = null;
     public User(String userName, String password){
         this.userName = userName;
         this.password = password;
@@ -18,15 +18,17 @@ public class User {
         return password;
     }
 
-    public void setWatchedmedia(ArrayList watchedmedia){
+    public void setWatchedMedia(ArrayList <Media> watchedmedia){
         this.watchedMedia = watchedmedia;
     }
-    public ArrayList getwatchedmedia(){
+    public ArrayList<Media> getWatchedMedia(){
         return watchedMedia;
     }
-   public void watchedMedia(Media media){
-        if(!watchedMedia.contains(watchedMedia)){
-            watchedMedia.add(watchedMedia);
+   public void addWatchedMedia(Media media){
+        if(!watchedMedia.contains(media)){
+            watchedMedia.add(media);
         }
+
+
    }
 }

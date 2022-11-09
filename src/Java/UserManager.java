@@ -21,12 +21,15 @@ public class UserManager {
         try (BufferedReader reader = new BufferedReader(new FileReader(usersFile, StandardCharsets.UTF_8))) {
             userList = reader.lines().map(line -> {
                 String[] split = line.split(";");
-                if (split.length != 2) {
+                if (split.length < 2) {
                     System.out.println("invalid user: " + line);
                     return null;
                 }
+                User user = new User(split[0].trim(), split[1].trim());
+                for (int i = 2; i < split.length; i++) {
 
-                return new User(split[0].trim(), split[1].trim());
+                }
+                return user;
             }).collect(Collectors.toList());
         }
         catch (IOException e) {
