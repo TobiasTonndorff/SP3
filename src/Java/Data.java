@@ -1,13 +1,11 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.Writer;
 import java.util.*;
 
 public class Data {
-    public ArrayList<Movies> getMoviesInCategory( String category) {
+    public ArrayList<Movie> getMoviesInCategory(String category) {
 
-        ArrayList<Movies> movies = new ArrayList<>();
+        ArrayList<Movie> movies = new ArrayList<>();
         Scanner scan = null;
         File fr = new File("Data/Movies.txt");
         try {
@@ -28,7 +26,7 @@ public class Data {
                     if (seperatedCategories[i].trim().equals(category)) {
                         ArrayList<String> categories = new ArrayList<>();
                         Collections.addAll(categories, seperatedCategories);
-                        Movies movie = new Movies(seperatedValues[0],categories , Float.parseFloat(seperatedValues[3].trim()), Integer.parseInt(seperatedValues[1].trim()), 1);
+                        Movie movie = new Movie(seperatedValues[0],categories , Float.parseFloat(seperatedValues[3].trim()), Integer.parseInt(seperatedValues[1].trim()), 1);
                         movies.add(movie);
 
                     }

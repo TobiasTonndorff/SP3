@@ -101,7 +101,7 @@ public class UI {
         }
 
     }
-        public void movies(ArrayList<Movies> movies){
+        public void movies(ArrayList<Movie> movies){
         for(int i = 0; i < movies.size(); i++){
             System.out.println(movies.get(i).getTitle());
 
