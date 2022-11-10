@@ -5,6 +5,7 @@ public class User {
     private String userName;
     private String password;
     private ArrayList<Media> watchedMedia = null;
+    private ArrayList<Media> savedMedia = null;
     public User(String userName, String password){
         this.userName = userName;
         this.password = password;
