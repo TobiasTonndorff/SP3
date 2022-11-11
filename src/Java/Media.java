@@ -30,9 +30,15 @@ public abstract class Media {
     static void categories(){
 
     }
+<<<<<<< HEAD
     @Override
     public String toString(){
         return getTitle();
     }
 
+=======
+
+
+    public abstract void play(String msg);
+>>>>>>> UI
 }

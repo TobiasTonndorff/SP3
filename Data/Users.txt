@@ -1,4 +1,8 @@
 Username; Password;
 Admin; 1234;
+<<<<<<< HEAD
 OlleBolleMadsen;123
 marcus;123456
+=======
+OlleBolleMadsen;123;
+>>>>>>> UI
