@@ -5,6 +5,7 @@ public class UI {
 
     Data data = new Data();
     int userInput;
+    Movie movie;
 
     public int getUserInput(String msg) {
         System.out.println(msg);
@@ -119,6 +120,9 @@ public class UI {
         userInput = getUserInput("User input: ");
 
 
+        switch (userInput){
+            case 1 -> movie.play();
+        }
     }
     }
 

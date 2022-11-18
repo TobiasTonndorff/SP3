@@ -28,9 +28,10 @@ public class Movie extends Media {
     public int getStarRating() {
         return starRating;
     }
-    @Override
-    public void play(String msg){
+
+    public void play(){
         System.out.println("*********************");
+        String msg = "Nu afspilles: ";
             System.out.println(msg);
     }
 }

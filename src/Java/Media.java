@@ -5,32 +5,36 @@ public abstract class Media {
     private float rating;
     private ArrayList<String> genres;
     private String title;
-    Media(String title, ArrayList genres, float rating, int ID){
+
+    Media(String title, ArrayList genres, float rating, int ID) {
         this.ID = ID;
         this.title = title;
         this.genres = genres;
         this.rating = rating;
 
     }
-    public String getTitle(){
+
+    public String getTitle() {
         return title;
     }
 
-    public ArrayList getGenres(){
+    public ArrayList getGenres() {
         return genres;
     }
-    public int getID(){
+
+    public int getID() {
         return ID;
     }
-    public float getRating(){
+
+    public float getRating() {
         return rating;
     }
 
 
-    static void categories(){
+    static void categories() {
 
     }
-
-
-    public abstract void play(String msg);
 }
+
+
+
