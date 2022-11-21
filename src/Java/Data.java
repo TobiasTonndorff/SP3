@@ -7,7 +7,7 @@ public class Data {
 
         ArrayList<Movie> movies = new ArrayList<>();
         Scanner scan = null;
-        File fr = new File("Data/Movies.txt");
+        File fr = new File("Data/Movies.csv");
         try {
             scan = new Scanner(fr);
 

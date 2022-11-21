@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class MediaManager {
-    private static final File moviesFile = new File("Data/Movies.txt");
+    private static final File moviesFile = new File("Data/Movies.csv");
 
-    private static final File seriesFile = new File("Data/Series.txt");
+    private static final File seriesFile = new File("Data/Series.csv");
     private static MediaManager manager = null;
 
     public static MediaManager getInstance() {

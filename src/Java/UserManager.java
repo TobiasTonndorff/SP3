@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class UserManager {
 
-    private static final File usersFile = new File("Data/Users.txt");
+    private static final File usersFile = new File("Data/Users.csv");
     private static UserManager manager = null;
 
     public static UserManager getInstance() {
@@ -46,7 +46,7 @@ public class UserManager {
     }
     public void writeUser(User u){
         try{
-            FileWriter writer = new FileWriter("Data/users.txt", true);
+            FileWriter writer = new FileWriter("Data/users.csv", true);
             writer.write("\n" + u.getUserName() + ";" + u.getPassword());
             writer.close();
         } catch (IOException e){
