@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class FileIO {
     public ArrayList<String> readMoviesFile() {
-        File file = new File("Data/Movies.txt");
+        File file = new File("Data/Movies.csv");
         ArrayList<String> movies = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
@@ -24,7 +24,7 @@ public class FileIO {
     }
 
     public ArrayList<String> readSeriesFile() {
-        File file = new File("Data/Series.txt");
+        File file = new File("Data/Series.csv");
         ArrayList<String> Series = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
@@ -40,7 +40,7 @@ public class FileIO {
 
     public void writeUserFile(User u) {
         try {
-            FileWriter writer = new FileWriter("Data/Users.txt");
+            FileWriter writer = new FileWriter("Data/Users.csv");
             writer.write(u.getUserName() + ": " + u.getPassword() +":");
             writer.close();
         } catch (IOException e) {
@@ -49,7 +49,7 @@ public class FileIO {
 
     }
     public String readUserFile(String username, String password){
-        File file = new File("Data/Users.txt");
+        File file = new File("Data/Users.csv");
         ArrayList<String> users = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
