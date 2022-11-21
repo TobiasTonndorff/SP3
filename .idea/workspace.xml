@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="WatchedMoviesWriter">
-      <change afterPath="$PROJECT_DIR$/Test/Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/TestJDBCConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SP3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SP3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Movies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Movies.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/SavedTitles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/SavedTitles.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Series.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Series.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/watchedMovies" beforeDir="false" afterPath="$PROJECT_DIR$/Data/watchedMovies.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/FileIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/MediaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/MediaManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Series.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Series.csv" afterDir="false" />
     </list>
     <list id="72dc8cfe-7759-4cd4-bfa4-628b7cc74630" name="Changes by UrinInF4CE" comment="" />
     <option name="SHOW_DIALOG" value="false" />
