@@ -1,9 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        UserManager.getInstance().loadUsers();
-        MediaManager.getInstance().loadMedia();
+        UserManager manager = UserManager.getInstance();
+
+        manager.loadUsers();
 
         GUI loginpage = new GUI();
+        loginpage.getClass();
+
     }
 }
