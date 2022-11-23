@@ -2,18 +2,16 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import java.sql.*;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
 
 
 public class TestJDBCConnection {
     @Test
-    public void  TestJDBCConnection(){
+    public void  database(){
         Connection connection;
 
-        String url = "jdbc:mysql://localhost/world?" + "autoReconnect=true&useSSL=false";
+        String url = "jdbc:mysql://localhost/sp3?" + "autoReconnect=true&useSSL=false";
         String username = "root";
-        String password = "Supermandhaderkryp29t!";
+        String password = "olle123";
 
 
         try{

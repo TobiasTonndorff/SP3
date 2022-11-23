@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            Class.forName("com.mysql.jdbc.driver");
             Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/Users","root","olle123");
             Statement st=con.createStatement();
             System.out.println("Enter Username");
