@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="WatchedMoviesWriter">
-      <change beforePath="$PROJECT_DIR$/.idea/SP3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SP3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/src/TestJDBCConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/TestJDBCConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="WatchedMoviesWriter" />
     <list id="72dc8cfe-7759-4cd4-bfa4-628b7cc74630" name="Changes by UrinInF4CE" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/ollem/Downloads/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49-bin.jar",
+    "last_opened_file_path": "C:/Users/ollem/OneDrive/Billeder/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49-bin.jar",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -69,6 +64,7 @@
       <workItem from="1669037058042" duration="14000" />
       <workItem from="1669143530714" duration="4425000" />
       <workItem from="1669246622283" duration="490000" />
+      <workItem from="1669247294279" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="WatchedMoviesWriter">
       <created>1668031454748</created>
