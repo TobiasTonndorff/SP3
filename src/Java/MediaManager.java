@@ -11,6 +11,16 @@ public class MediaManager {
     private static final File seriesFile = new File("Data/Series.csv");
     private static MediaManager manager = null;
 
+    public Media getCurrentMedia() {
+        return currentMedia;
+    }
+
+    public void setCurrentMedia(Media currentMedia) {
+        this.currentMedia = currentMedia;
+    }
+
+    private Media currentMedia;
+
     public static MediaManager getInstance() {
         if (manager == null)
             manager = new MediaManager();
