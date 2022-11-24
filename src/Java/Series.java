@@ -4,11 +4,11 @@ public class Series extends Media {
 
     private int startDate;
     private int endDate;
-    private ArrayList<String> seasons;
+    private ArrayList<Integer> seasons;
 
     private ArrayList<String> genres;
 
-    public Series(String title, ArrayList<String> genres, float rating, int startDate, int endDate, ArrayList<String> seasons, int ID){
+    public Series(String title, ArrayList<String> genres, float rating, int startDate, int endDate, ArrayList<Integer> seasons, int ID){
     super(title, genres, rating, ID);
     this.startDate = startDate;
     this.endDate = endDate;

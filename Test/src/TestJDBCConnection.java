@@ -20,10 +20,11 @@ public class TestJDBCConnection {
             Statement st = connection.createStatement();
             st.execute("SELECT * FROM movies");
             ResultSet rs = st.getResultSet();
-            if (rs.next()) {
+            while (!rs.isClosed() && rs.next()) {
+                String ownerName = rs.getString(1);
+                System.out.println(ownerName);
+                }
 
-                System.out.println(rs.getString(1));
-            }
             assertEquals(true, connection.isValid(1));
             connection.close();
             assertEquals(false, connection.isValid(1));
