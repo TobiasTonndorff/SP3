@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="Valg af film, &quot;go back to main menu&quot; og play button der fremviser spillede film" />
+    <list default="true" id="72d40343-b1b9-438d-a18e-67e73fa769a7" name="Changes" comment="Valg af film, &quot;go back to main menu&quot; og play button der fremviser spillede film">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="72dc8cfe-7759-4cd4-bfa4-628b7cc74630" name="Changes by UrinInF4CE" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +85,9 @@
       <workItem from="1669249491036" duration="2000" />
       <workItem from="1669249502873" duration="1258000" />
       <workItem from="1669267447110" duration="5702000" />
+      <workItem from="1669281632615" duration="3628000" />
+      <workItem from="1669407607350" duration="195000" />
+      <workItem from="1669407960065" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="WatchedMoviesWriter">
       <created>1668031454748</created>
